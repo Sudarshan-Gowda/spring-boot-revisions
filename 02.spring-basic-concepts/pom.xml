@@ -12,7 +12,7 @@
 	<artifactId>02.spring-basic-concepts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>02.spring-basic-concepts</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Boot Basic Concepts</description>
 	<url/>
 	<licenses>
 		<license/>
