@@ -1,6 +1,12 @@
-package com.star.sud.spring.bus.config;
+package com.star.sud.spring.bus.advanced;
 
-public class KsrtcBus2 implements BusConsole2 {
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Primary
+@Component
+public class KsrtcBus3 implements BusConsole3 {
+
     @Override
     public String busType() {
         return "KSRTC";

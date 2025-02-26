@@ -1,24 +1,30 @@
-package com.star.sud.spring.bus.config;
+package com.star.sud.spring.bus.advanced;
 
-public class KsrtcBus2 implements BusConsole2 {
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("bmtcBus31")
+public class BmtcBus3 implements BusConsole3 {
+
     @Override
     public String busType() {
-        return "KSRTC";
+        return "BMTC";
     }
 
     @Override
     public String source() {
-        return "KBS";
+        return "Majestic";
     }
 
     @Override
     public String destination() {
-        return "Hassan";
+        return "Whitefield";
     }
 
     @Override
     public String price() {
-        return "500";
+        return "200";
     }
 
     @Override
