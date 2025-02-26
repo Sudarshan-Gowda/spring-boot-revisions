@@ -1,6 +1,5 @@
-package com.star.sud.spring;
+package com.star.sud.spring.helloworld;
 
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
